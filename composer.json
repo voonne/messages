@@ -1,0 +1,22 @@
+{
+	"name": "voonne/messages",
+	"type": "library",
+	"description": "Voonne messaging system",
+	"license": ["BSD-3-Clause", "GPL-2.0", "GPL-3.0"],
+	"authors": [
+		{
+			"name": "Jan Lavička",
+			"email": "mail@janlavicka.name",
+			"homepage": "https://www.janlavicka.name"
+		}
+	],
+	"support": {
+		"email": "mail@janlavicka.name",
+		"issues": "https://github.com/voonne/messages/issues"
+	},
+	"autoload": {
+		"psr-4": {
+			"Voonne\\Messages\\": "src/"
+		}
+	}
+}
